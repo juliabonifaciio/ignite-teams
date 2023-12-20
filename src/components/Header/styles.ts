@@ -10,7 +10,7 @@ export const Container = styled.View `
 `;
 
 export const Logo = styled.Image`
-    width: 76px;
+    width: 46px;
     height: 55px;
 `;
 
@@ -19,6 +19,6 @@ export const BackButton = styled.TouchableOpacity`
 `;
 
 export const BackIcon = styled(CaretLeft).attrs(({ theme }: any) => ({
-    size: 36,
+    size: 32,
     color: theme.COLORS.WHITE
 }))``;
