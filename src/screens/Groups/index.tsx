@@ -10,13 +10,6 @@ import { Button } from '@components/Button';
 import { Container } from './styles';
 
 export function Groups() {
-  /* 
-  useState 
-    - Define o valor inicial do estado;
-  
-      Exemplo  
-      const [nome, nome_da_função]
-  */
   const [groups, setGroups] = useState<string[]>(['Nome da turma', 'Nome da turma']); 
 
   return (

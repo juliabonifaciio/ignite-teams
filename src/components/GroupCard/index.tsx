@@ -1,7 +1,6 @@
 import { TouchableOpacityProps } from 'react-native';
 import { Container, Icon, Title } from './styles';
 
-// Props, um componente
 type Props = TouchableOpacityProps & {
     title: string;
 }

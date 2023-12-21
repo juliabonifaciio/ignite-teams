@@ -7,7 +7,6 @@ type Props = TouchableOpacityProps & {
     type?: ButtonTypeStyleProps;
 }
 
-// Rest: "Despeja" as propriedades definidas
 export function Button({ title, type = 'PRIMARY', ...rest}: Props) {
     return (
         <Container 
