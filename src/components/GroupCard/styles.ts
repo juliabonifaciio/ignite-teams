@@ -17,9 +17,9 @@ export const Container = styled(TouchableOpacity)`
 `;
 
 export const Title = styled.Text`
-    font-size: ${({ theme}: any) => theme.FONT_SIZE.MD}px;
-    font-family: ${({ theme}: any) => theme.FONT_FAMILY.REGULAR};
-    color: ${({ theme}: any) => theme.COLORS.WHITE};
+    font-size: ${({ theme }: any) => theme.FONT_SIZE.MD}px;
+    font-family: ${({ theme }: any) => theme.FONT_FAMILY.REGULAR};
+    color: ${({ theme }: any) => theme.COLORS.WHITE};
 `;
 
 export const Icon = styled(UsersThree).attrs(({ theme }: any) => ({
