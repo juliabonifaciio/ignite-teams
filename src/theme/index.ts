@@ -19,7 +19,7 @@ export default {
 
     FONT_FAMILY: {
         REGULAR: 'Roboto_400Regular',
-        BOLD: 'Bold_700Bold'
+        BOLD: 'Roboto_700Bold'
     },
 
     FONT_SIZE: {
