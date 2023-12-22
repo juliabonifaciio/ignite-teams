@@ -1,9 +1,9 @@
-import { Container, Content, Icon } from './styles';
-
 import { Header } from '@components/Header';
 import { Highlight } from '@components/Highlight';
 import { Input } from '@components/Input';
 import { Button } from '@components/Button';
+
+import { Container, Content, Icon } from './styles';
 
 export function NewGroup() {
     return(
