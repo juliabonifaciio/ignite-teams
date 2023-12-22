@@ -1,4 +1,4 @@
-import styled, { css } from 'styled-components';
+import styled, { css } from 'styled-components/native';
 import { TextInput } from 'react-native';
 
 export const Container = styled(TextInput)`

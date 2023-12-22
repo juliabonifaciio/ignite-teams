@@ -6,6 +6,9 @@ import { Highlight } from '@components/Highlight';
 import { Input } from '@components/Input';
 import { ButtonIcon } from '@components/ButtonIcon';
 import { Filter } from '@components/Filter';
+import { PlayerCard } from '@components/PlayerCard';
+import { ListEmpty } from '@components/ListEmpty';
+import { Button } from '@components/Button';
 
 import { Container, Form, HeaderList, NumbersOfPlayers } from './styles';
 
@@ -18,7 +21,7 @@ export function Players() {
             <Header showBackButton/>
 
             <Highlight
-                title='Nome da Turma'
+                title='Nome da turma'
                 subtitle='adicione a galera e separe os times'
             />
             <Form>
@@ -33,7 +36,7 @@ export function Players() {
             <HeaderList>
                 <FlatList
                     data={['Time A', 'Time B']}
-                    keyExtractor={ item => item}
+                    keyExtractor={item => item}
                     renderItem={({ item }: any) => (
                         <Filter
                             title={item}
@@ -48,6 +51,32 @@ export function Players() {
                     {players.length}
                 </NumbersOfPlayers>
             </HeaderList>
+
+            <FlatList
+                data={players}
+                keyExtractor={item => item}
+                renderItem={({ item }: any) => (
+                    <PlayerCard
+                        name={item}
+                        onRemove={() => {}}
+                    />
+                )}
+                ListEmptyComponent={() => (
+                    <ListEmpty
+                      message="não há participantes nesse time"
+                    />
+                )}
+                showsVerticalScrollIndicator={false}
+                contentContainerStyle={[
+                    {paddingBottom: 100},
+                    players.length === 0 && {flex: 1}
+                ]}
+            />
+
+            <Button
+                title='Remover turma'
+                type='SECONDARY'
+            />
         </Container>
     );
 }

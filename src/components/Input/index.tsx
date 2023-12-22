@@ -3,7 +3,7 @@ import { useTheme } from 'styled-components/native';
 
 import { Container } from "./styles";
 
-export function Input({...rest}: TextInputProps) {
+export function Input({ ...rest }: TextInputProps) {
     const { COLORS } = useTheme();
     return (
         <Container 
