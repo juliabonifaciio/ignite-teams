@@ -19,26 +19,9 @@ Este aplicativo React Native permite o gerenciamento de turmas e jogadores. Ele 
 ## Instalação
 
  1. **Clonar o Repositório:**
-       \`\`\`bash
-       git clone https://github.com/seu-usuario/nome-do-projeto.git
-       \`\`\`
 
-    2. **Acessar o Diretório do Projeto:**
-       \`\`\`bash
-       cd nome-do-projeto
-       \`\`\`
-
-    3. **Instalar Dependências:**
-       \`\`\`bash
-       npm install
-       \`\`\`
-       Isso instalará todas as dependências necessárias para o projeto.
-
-    4. **Executar o Projeto:**
-       \`\`\`bash
-       npm start
-       \`\`\`
-       Isso iniciará o aplicativo no ambiente de desenvolvimento.
+   ```bash
+   git clone https://github.com/seu-usuario/nome-do-projeto.git
 
 ## Uso
 
