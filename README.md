@@ -18,11 +18,12 @@ Este aplicativo React Native permite o gerenciamento de turmas e jogadores. Ele 
 
 ## Instalação
 
- 1. **Clonar o Repositório:**
+1. **Clonar o Repositório:**
 
    ```bash
-   git clone https://github.com/seu-usuario/nome-do-projeto.git```;
-
+   git clone https://github.com/seu-usuario/nome-do-projeto.git
+   ```
+   
 ## Uso
 
 - **Adicionar uma Nova Turma:** Na tela principal, clique no botão "Nova Turma" e insira o nome da turma desejada.
