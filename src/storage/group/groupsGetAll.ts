@@ -4,12 +4,14 @@ import { GROUP_COLLECTION } from '@storage/storageConfig';
 
 export async function groupsGetAll() {
   try {
-    const storage = await AsyncStorage.getItem(GROUP_COLLECTION);
+    const storedGroups = await AsyncStorage.getItem(GROUP_COLLECTION);
 
-    const groups: string[] = storage ? JSON.parse(storage) : [];
-
-    return groups;
+    if (storedGroups) {
+      return JSON.parse(storedGroups);
+    } else {
+      return []; 
+    }
   } catch (error) {
-        throw error;
+    throw error;
   }
 }
