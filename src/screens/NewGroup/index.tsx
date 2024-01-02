@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { useNavigation } from '@react-navigation/native';
 
-import { groupCreate } from '@storage/storageConfig';
+import { groupCreate } from '@storage/group/groupCreate';
 
 import { Header } from '@components/Header';
 import { Highlight } from '@components/Highlight';
