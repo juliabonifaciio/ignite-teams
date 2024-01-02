@@ -4,7 +4,7 @@ import { UsersThree } from "phosphor-react-native";
 
 export const Container = styled(SafeAreaView)`
   flex: 1;
-  background-color: ${({ theme }) => theme.COLORS.GRAY_600};
+  background-color: ${({ theme }: any) => theme.COLORS.GRAY_600};
   padding: 24px;
 `;
 
@@ -13,7 +13,7 @@ export const Content = styled.View`
   justify-content: center;
 `;
 
-export const Icon = styled(UsersThree).attrs(({ theme }) => ({
+export const Icon = styled(UsersThree).attrs(({ theme }: any) => ({
   size: 56,
   color: theme.COLORS.GREEN_700
 }))`
