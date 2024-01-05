@@ -52,7 +52,7 @@ This React Native application allows you to manage classes and players. It offer
 - `storage/`: Functions for handling AsyncStorage.
 - `utils/`: Utilities and auxiliary functions.
 
-## License
+# License
 This project is under the MIT license. See the LICENSE file for more information.
 
 # Contributions
