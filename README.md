@@ -25,7 +25,7 @@ This React Native application allows you to manage classes and players. It offer
 
 2. **Access the Project Directory:**
    ```bash
-   cd project-name
+   cd ignite-teams
    ```
 
 3. **Install Dependencies:**
@@ -36,9 +36,12 @@ This React Native application allows you to manage classes and players. It offer
 
 4. **Execute the Project:**
    ```bash
-   npm start
+   npx expo start
    ```
    This will launch the application in the development environment.
+
+5. **Andoid Studio or Expo Go:**
+   It's necessary to use an emulator, and the most recommended option is Android Studio or the Expo Go app on your phone. Scan the QR code or enter the execution code, and you're ready to go!
 
 ## Usage
 - **Add a New Class:** On the main screen, click on the "New Class" button and enter the name of the desired class.
