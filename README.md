@@ -1,60 +1,62 @@
-# Gerenciador de Turmas e Jogadores
+# Class and Player Manager
 
 ![Ignite Teams Preview](.github/preview.png)
 
-Este aplicativo React Native permite o gerenciamento de turmas e jogadores. Ele oferece funcionalidades para adicionar, remover e listar turmas, bem como adicionar, remover e listar jogadores associados a essas turmas.
+This React Native application allows you to manage classes and players. It offers functionality to add, remove and list classes, as well as add, remove and list players associated with those classes.
 
-## Funcionalidades Principais
+   ##
+   
+## Main Features
+- **Classes:** Add, remove and list classes.
+- **Players:** Add, remove and list players associated with classes.
+- **Organization by Teams:** Possibility of organizing players into different teams within a group.
 
-- **Turmas:** Adicionar, remover e listar turmas.
-- **Jogadores:** Adicionar, remover e listar jogadores associados a turmas.
-- **Organização por Times:** Possibilidade de organizar jogadores em diferentes times dentro de uma turma.
+## Technologies Used
+- **React Native:** Used for mobile application development.
+- **AsyncStorage:** Local storage used to maintain class and player data.
+- **React Navigation:** Route management and navigation between screens.
 
-## Tecnologias Utilizadas
-
-- **React Native:** Utilizado para o desenvolvimento da aplicação móvel.
-- **AsyncStorage:** Armazenamento local utilizado para manter os dados das turmas e jogadores.
-- **React Navigation:** Gerenciamento de rotas e navegação entre telas.
-
-## Instalação
-
-1. **Clonar o Repositório:**
+## Installation
+1. **Clone the Repository:**
 
    ```bash
    git clone https://github.com/juliafariia/ignite-teams
    ```
 
-2. **Acessar o Diretório do Projeto:**
+2. **Access the Project Directory:**
    ```bash
-   cd nome-do-projeto
+   cd project-name
    ```
 
-3. **Instalar Dependências:**
+3. **Install Dependencies:**
    ```bash
    npm install
    ```
-   Isso instalará todas adependências necessáriapara o projeto.
+   This will install all the dependencies needed for the project.
 
-4. **Executar o Projeto:**
+4. **Execute the Project:**
    ```bash
    npm start
    ```
-   Isso iniciará o aplicativno ambiente ddesenvolvimento.
+   This will launch the application in the development environment.
 
-## Uso
+## Usage
+- **Add a New Class:** On the main screen, click on the "New Class" button and enter the name of the desired class.
+- **Add Players:** Select a class and add players by entering their names and teams.
+- **Remove Class or Player:** Remove classes or players by selecting the desired item and choosing the removal option.
 
-- **Adicionar uma Nova Turma:** Na tela principal, clique no botão "Nova Turma" e insira o nome da turma desejada.
-- **Adicionar Jogadores:** Selecione uma turma e adicione jogadores informando seus nomes e times.
-- **Remover Turma ou Jogador:** Remova turmas ou jogadores selecionando o item desejado e escolhendo a opção de remoção.
+## Project Structure
+- `src/`: Contains the application source files.
+- `components/`: Reusable components.
+- `screens/`: Main screens of the application.
+- `storage/`: Functions for handling AsyncStorage.
+- `utils/`: Utilities and auxiliary functions.
 
-## Estrutura do Projeto
+## License
+This project is under the MIT license. See the LICENSE file for more information.
 
-- `src/`: Contém os arquivos fonte do aplicativo.
-- `components/`: Componentes reutilizáveis.
-- `screens/`: Telas principais do aplicativo.
-- `storage/`: Funções para manipulação do AsyncStorage.
-- `utils/`: Utilitários e funções auxiliares.
+# Contributions
+Contributions are always welcome! You're invited to submit any improvements or corrections.
 
-## Licença
-
-Este projeto está sob a licença MIT. Consulte o arquivo LICENSE para obter mais informações.
+# Credits
+Crafted with care by Julia Faria, supported by Rocketseat.
